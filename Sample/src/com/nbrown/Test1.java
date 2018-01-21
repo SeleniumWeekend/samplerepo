@@ -9,7 +9,7 @@ public class Test1 {
 
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.seleniumhq.org/download/");
-		
+		driver.close();
 		
 	}
 
